@@ -1,0 +1,22 @@
+/*
+---------------------------------------
+contact
+---------------------------------------
+*/
+
+#contact {
+	background: #EDF2F8;
+	padding: 90px 0 120px;
+
+	@include sp {
+		padding-bottom: 10vw;
+	}
+
+	.pageTtl {
+		padding-bottom: 143px;
+
+		@include sp {
+			padding-bottom: 17vw;
+		}
+	}
+}
